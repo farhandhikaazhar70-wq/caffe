@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#1c1612">
+  <meta name="description" content="Kasir offline Toos Ngopi: pesanan, stok bahan, resep, dan laporan penjualan.">
+  <title>Toos Ngopi POS</title>
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" type="image/png" href="img/favicon.png">
+  <link rel="apple-touch-icon" href="img/icon-192.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="app"><div class="boot">Memuat Toos Ngopi POS…</div></div>
+  <noscript><p style="padding:24px">Aplikasi ini membutuhkan JavaScript agar dapat berjalan.</p></noscript>
+
+  <script src="js/01-util.js"></script>
+  <script src="js/02-ui.js"></script>
+  <script src="js/03-db.js"></script>
+  <script src="js/04-logic.js"></script>
+  <script src="js/05-auth.js"></script>
+  <script src="js/06-receipt.js"></script>
+  <script src="js/07-page-kasir.js"></script>
+  <script src="js/08-page-beranda-transaksi.js"></script>
+  <script src="js/09-page-menu.js"></script>
+  <script src="js/10-page-stok.js"></script>
+  <script src="js/11-page-laporan.js"></script>
+  <script src="js/12-page-pengaturan.js"></script>
+  <script src="js/13-app.js"></script>
+  <script>TN.boot();</script>
+</body>
+</html>
